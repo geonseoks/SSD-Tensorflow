@@ -32,7 +32,7 @@ SSD-Tensorflow/
     |    |    |->eval
 ```
 
-3. python3 process_data.py to make train, test pkl file. It will be generated on SSD-Tensorflow directory.
+3. Run python3 process_data.py to make train, test pkl file. It will be generated on SSD-Tensorflow directory.
 
 ## Train:
 
