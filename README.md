@@ -50,9 +50,9 @@ python3 inference.py --epoch_num=300 \ --output_dir={YOUR_OUTPUT_DIR} \ --ex_dir
 
 ## Result:
 
-|                             Train data                          |                             Test data                           | Classes | Base model | Input resolution | Batch size | Epochs | mAP (%) |
-|:---------------------------------------------------------------:|:---------------------------------------------------------------:|:-------:|:-----------|:----------------:|:----------:|:------:|:-------:|
-| [VOC07](http://http://host.robots.ox.ac.uk/pascal/VOC/voc2007/) | [VOC07](http://http://host.robots.ox.ac.uk/pascal/VOC/voc2007/) |    20   |  VGG16  |      300x300     |     32     |   300  |   52.1  |
+|Model|                             Train data                          |                             Test data                           | Classes | Base model | Input resolution | Batch size | Epochs | mAP (%) |
+|:---:|:---------------------------------------------------------------:|:---------------------------------------------------------------:|:-------:|:-----------|:----------------:|:----------:|:------:|:-------:|
+| [SSD-300](https://drive.google.com/drive/folders/1bBIgvaDsI7Bs8_2oR_GupnpNVAXTOqoS)|[VOC07](http://http://host.robots.ox.ac.uk/pascal/VOC/voc2007/) | [VOC07](http://http://host.robots.ox.ac.uk/pascal/VOC/voc2007/) |    20   |  VGG16  |      300x300     |     32     |   300  |   52.1  |
 
 Here are two examples of detect box outputs:
 
