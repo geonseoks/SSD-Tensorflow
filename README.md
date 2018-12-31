@@ -13,7 +13,9 @@ Ubuntu 16.04, Python 3.6, Tensorflow 1.6.0
 
 1. Set up a virtual environment (optional)
 2. Clone the SSD-Tensorflow repository
+```
 git clone https://github.com/geonseoks/SSD-Tensorflow
+```
 
 ## Preparation for Training:
 
